@@ -9,7 +9,7 @@ app.use(
     contentSecurityPolicy: false,
   })
 );
-app.use(express.static('view'))
+app.use(express.static('front'))
 
 
 
